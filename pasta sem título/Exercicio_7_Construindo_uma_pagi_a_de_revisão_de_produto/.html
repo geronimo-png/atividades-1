@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Página de Revisão de Produtos</title>
+</head>
+
+<body>
+    <header>
+        <h1>Revisões de Produtos</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Produto: Nome do Produto</h1>
+
+            <article>
+                <h2>Revisão 1</h2>
+                <p>Esta é a primeira revisão do produto. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique sem ac felis euismod fermentum.</p>
+                <div>
+                    <img src="imagem1.jpg" alt="Imagem da revisão 1">
+                </div>
+            </article>
+
+            <article>
+                <h2>Revisão 2</h2>
+                <p>A segunda revisão destaca os recursos do produto. Vestibulum vehicula tincidunt ante in tincidunt.</p>
+                <div>
+                    <img src="imagem2.jpg" alt="Imagem da revisão 2">
+                </div>
+            </article>
+        </section>
+
+        <section>
+            <h1>Adicionar uma Revisão</h1>
+
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="classificacao">Classificação:</label>
+                <input type="number" id="classificacao" name="classificacao" min="1" max="5" required>
+
+                <label for="comentario">Comentário:</label>
+                <textarea id="comentario" name="comentario" required></textarea>
+
+                <button type="submit">Enviar Revisão</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
